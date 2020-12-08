@@ -7,3 +7,12 @@
 
 
 
+$("#shoot").click(function(){
+  let usercomment= $("#input").val();
+$("#userChoice").text(usercomment)
+});
+
+$("#shoot").click(function(){
+  let usercomment= $("#input").val();
+$("#computerChoice").text(usercomment)
+});
